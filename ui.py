@@ -13,7 +13,7 @@ option = st.selectbox(
     "Select ",
     romaji_list(),
     index=None,
-    placeholder="Select contact method...",
+    placeholder="Select...",
 )
 try:
     kana, roumaji, type_ = rom(option)
